@@ -65,5 +65,5 @@ Don't forget to give the project a star! ⭐
 Distributed under the MIT License. See `LICENSE` for more information. (Assuming an MIT License; create a LICENSE file if none exists).
 
 ## 📞 Contact
-Aditya Bhanudas Patil - [adityabhanudas610@gmail.com](mailto:adityabhanudas610@gmail.com) (Please replace with your actual email/LinkedIn)
+Aditya Bhanudas Patil - [adityabhanudas610@gmail.com](mailto:adityabhanudas610@gmail.com) | [LinkedIn](https://www.linkedin.com/in/aditya-patil6100)
 Project Link: [https://github.com/aditya6100/Complaint-Management-System](https://github.com/aditya6100/Complaint-Management-System)
