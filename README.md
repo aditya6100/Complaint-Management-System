@@ -21,9 +21,7 @@ The Complaint Management System is a robust web-based application designed to st
 To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
--   Web server (Apache, Nginx, or similar)
--   PHP (7.x or higher recommended)
--   MySQL database
+-   XAMPP or WAMP server (includes Apache, MySQL, PHP)
 -   Git
 
 ### Setup
@@ -35,18 +33,21 @@ To get a local copy up and running, follow these simple steps.
    ```bash
    cd Complaint-Management-System
    ```
-3. Import the database
-   *   Create a MySQL database (e.g., `complaint_db`).
-   *   Import the provided SQL dump (if available) into your database.
-4. Configure database connection
-   *   Locate the database configuration file (e.g., `config.php`, `.env`, or similar) and update with your MySQL credentials.
-5. Place project on your web server
-   *   Move the project files to your web server's document root (e.g., `htdocs` for Apache).
+3. Copy project files to your web server's document root
+   *   Move the contents of the cloned repository into your XAMPP's `htdocs` folder or WAMP's `www` folder (e.g., `C:\xampp\htdocs\complaint-system`).
+4. Import the database
+   *   Start Apache and MySQL from your XAMPP/WAMP control panel.
+   *   Open phpMyAdmin (usually via `http://localhost/phpmyadmin`).
+   *   Create a new database (e.g., `complaint_db`).
+   *   Import the provided SQL dump (if available, e.g., `database.sql`) into your newly created database.
+5. Configure database connection
+   *   Locate the database connection file in your project (e.g., `config.php`, `db.php`, or similar) and update with your MySQL credentials (e.g., username `root`, no password, database name `complaint_db`).
 
 ## 🚀 Usage
-1.  Open your web browser and navigate to the project's URL (e.g., `http://localhost/Complaint-Management-System`).
-2.  Register as a new user or log in with administrator credentials (if provided).
-3.  Submit, track, or manage complaints as per your user role.
+1.  Ensure Apache and MySQL are running in your XAMPP/WAMP control panel.
+2.  Open your web browser and navigate to the project's URL (e.g., `http://localhost/complaint-system`).
+3.  Register as a new user or log in with administrator credentials (if provided).
+4.  Submit, track, or manage complaints as per your user role.
 
 ## 🤝 Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
